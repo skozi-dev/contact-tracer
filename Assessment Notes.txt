@@ -1,0 +1,41 @@
+Assessment Notes:
+
+
+# NOTE from feedback: Change the parameters to call xcoor and ycoor (find a starting point for the grid to reference)
+# NOTE from feedback: use shamrocks as an example.  This will make life easier for the next part of the assignment
+
+
+
+# Draw Title of Right Panel
+penup()
+goto(((grid_width + 1.5) * cell_size) // 2, (cell_size * 2.6))
+pencolor('grey')
+write('House Plants\nthrough\nthe Seasons',align = 'left', font = big_font)
+
+# Draw Image A
+goto(((grid_width + 1.5) * cell_size) // 2, (cell_size * 1.4))
+summer('deepskyblue')
+goto(((grid_width + 1.5) * cell_size) // 2, (cell_size * 1.1 ))
+pencolor('grey')
+write('A. Summer', align = 'left', font = small_font) # Label for image A
+
+# Draw Image B
+goto(((grid_width + 1.5) * cell_size) // 2, (cell_size * -0.1))
+winter('lightgrey')
+goto(((grid_width + 1.5) * cell_size) // 2, (cell_size * -0.4))
+pencolor('grey')
+write('B. Winter', align = 'left', font = small_font) # Labe for image B
+
+# Draw Image C
+goto(((grid_width + 1.5) * cell_size) // 2, (cell_size * -1.6))
+spring('powderblue')
+goto(((grid_width + 1.5) * cell_size) // 2, (cell_size * -1.9))
+pencolor('grey')
+write('C. Spring', align = 'left', font = small_font) # Label for image C
+
+# Draw Image D
+goto(((grid_width + 1.5) * cell_size) // 2, (cell_size * -3.1))
+autumn('navajowhite')
+goto(((grid_width + 1.5) * cell_size) // 2, (cell_size * -3.4))
+pencolor('grey')
+write('D. Autumn', align = 'left', font = small_font)
